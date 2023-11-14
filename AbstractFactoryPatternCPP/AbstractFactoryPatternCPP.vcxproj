@@ -156,10 +156,12 @@
   <ItemGroup>
     <ClCompile Include="AbstractFactoryPatternCPP.cpp" />
     <ClCompile Include="FlyRegulator.cpp" />
+    <ClCompile Include="QuadroRegulator.cpp" />
     <ClCompile Include="Regulator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FlyRegulator.h" />
+    <ClInclude Include="QuadroRegulator.h" />
     <ClInclude Include="Regulator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
