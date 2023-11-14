@@ -155,12 +155,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactoryPatternCPP.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FlyEngine.cpp" />
     <ClCompile Include="FlyRegulator.cpp" />
+    <ClCompile Include="QuadroEngine.cpp" />
     <ClCompile Include="QuadroRegulator.cpp" />
     <ClCompile Include="Regulator.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="FlyEngine.h" />
     <ClInclude Include="FlyRegulator.h" />
+    <ClInclude Include="QuadroEngine.h" />
     <ClInclude Include="QuadroRegulator.h" />
     <ClInclude Include="Regulator.h" />
   </ItemGroup>
